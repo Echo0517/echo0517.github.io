@@ -1,0 +1,1 @@
+document.querySelectorAll('.comparison-grid input').forEach(input=>{const panel=input.previousElementSibling;input.addEventListener('input',()=>panel.style.setProperty('--split',input.value+'%'));});
